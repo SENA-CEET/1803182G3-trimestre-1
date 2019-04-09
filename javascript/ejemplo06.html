@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // leer tres numero y determinar cual es el mayor
+    let a, b, c;
+    a = parseInt(prompt("digite el numero 1"));
+    b = parseInt(prompt("digite el numero 2"));
+    c = parseInt(prompt("digite el numero 3"));
+
+    if (a == b && a == c) {
+        console.log("los tres numeros iguales");
+    } else {
+        if (a > b && a > c) {
+            console.log("el numero mayor es: " + a);
+        } else {
+            if (b > a && b > c) {
+                console.log("el numero mayor es: " + b);
+            } else {
+                if (c > a && c > b) {
+                    console.log("el numero mayor es: " + c);
+                }
+            }
+        }
+    }
+</script>
+
+
+</body>
+</html>
