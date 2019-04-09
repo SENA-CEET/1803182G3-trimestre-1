@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numero, con;
+    numero = parseInt(prompt("digite el numero"));
+    con=0;
+    for (let i = 1; i <=numero ; i++) {
+        if(numero % i == 0){
+            con++;
+        }
+    }
+    if(con==2){
+        console.log("el numero es primo");
+    }else{
+        console.log("el numero no es primo");
+    }
+</script>
+
+
+</body>
+</html>
